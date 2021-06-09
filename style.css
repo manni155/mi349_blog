@@ -1,0 +1,53 @@
+html {
+    background: rgb(33, 165, 226);
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    margin: 40px;
+    color: #242424;
+    border: 10px solid #242424;
+    background: #a8dff5;
+}
+
+h1 {
+font-size: 3em;
+}
+
+header {
+    font-size: 1.6em;
+}
+section{
+    padding: 25px;
+}
+p {
+line-height: 1.4em;
+}
+
+#blog {
+ border-top: 1px dotted #ccc;
+}
+
+.blog-post { 
+ border-bottom: 3px dotted rgb(14, 13, 13);
+}
+
+footer {
+border-top: 3px solid black;
+font-size: 1em;
+}
+
+nav > ul > li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.8em;
+    display: block;
+    float: left;
+}
+
+h2 {
+    font-size: 2.2em;
+
+}
