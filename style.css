@@ -18,11 +18,9 @@ font-size: 3em;
 
 header {
     font-size: 1.6em;
-    background: rgb(110, 120, 248);
 }
 section{
     padding: 25px;
-    flex: 1;
 }
 p {
 line-height: 1.4em;
@@ -30,13 +28,10 @@ line-height: 1.4em;
 
 #blog {
  border-top: 1px dotted #ccc;
- display: flex;
 }
 
 .blog-post { 
  border-bottom: 3px dotted rgb(14, 13, 13);
- padding-left: 40px;
- padding-right: 40px;
 }
 
 footer {
@@ -44,35 +39,15 @@ border-top: 3px solid black;
 font-size: 1em;
 }
 
-nav {
-    background-color: teal;
-    position: sticky;
-    top: 0;
-}
-
 nav > ul > li {
     margin-left: 20px;
     margin-right: 20px;
     font-size: 1.8em;
     display: block;
+    float: left;
 }
 
 h2 {
     font-size: 2.2em;
-    position: absolute;
-    top: 415px;
-}
 
-section {
-    font-size: 1.1em;
-}
-
-.leftimage {
-    float: left;
-}
-
-.caption {
-    margin-top: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
 }
