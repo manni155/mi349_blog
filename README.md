@@ -1,2 +1,2 @@
-# mi349_blog
-Project done for MI 349's 6th module
+# mi349_card
+Done for the 10th module of MI 349
