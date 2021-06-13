@@ -20,10 +20,12 @@ header {
     font-size: 1.6em;
     background: rgb(110, 120, 248);
 }
+
 section{
     padding: 25px;
     flex: 1;
 }
+
 p {
 line-height: 1.4em;
 }
@@ -50,17 +52,18 @@ nav {
     top: 0;
 }
 
-nav > ul > li {
+.nav-bar > li {
     margin-left: 20px;
     margin-right: 20px;
     font-size: 1.8em;
-    display: block;
+    display: inline-block;
+
 }
 
 h2 {
     font-size: 2.2em;
-    position: absolute;
-    top: 415px;
+    position: relative;
+    display: inline;
 }
 
 section {
@@ -75,4 +78,17 @@ section {
     margin-top: 100px;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.blog-head {
+    position: sticky;
+    top: 50px;
+}
+
+
+@media (max-width: 400px)
+{
+    section{
+        display: block;
+    }
 }
