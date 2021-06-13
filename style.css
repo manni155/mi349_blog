@@ -81,15 +81,13 @@ section {
 }
 
 .blog-head {
-    display: inline-block;
-    position: sticky;
-    top: 50px;
+    display: block;   
 }
 
 
-@media screen (max-width: 400px)
-{
+@media (max-width: 400px) { 
     section{
-        display: block;
+        display: inline;
     }
+
 }
