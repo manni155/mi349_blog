@@ -81,11 +81,18 @@ section {
 }
 
 .blog-head {
-    display: block;   
+    display: inline-block; 
+    position: absolute;
+    top: 385px;
+    margin: 0;
+    padding: 0;
 }
 
 
 @media (max-width: 400px) { 
+    html {
+        background: rgb(5, 223, 5);
+    }
     #blog{
         display: inline-block;
         flex: 0;
